@@ -1,0 +1,22 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "thor bot router",
+  "main": "app.js",
+  "scripts": {
+    "router-test": "nyc mocha 'test/**/*.spec.js'",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov npm run router-test"
+  },
+  "author": "rithu",
+  "license": "ISC",
+  "dependencies": {
+    "actuator": "^0.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.1",
+    "prometheus": "^0.1.7"
+  }
+}
