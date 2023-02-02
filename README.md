@@ -9,3 +9,7 @@ To see the metrics (count)
 ```
 http://localhost:8080/metrics
 ```
+To run docker
+```
+docker-compose up
+```
